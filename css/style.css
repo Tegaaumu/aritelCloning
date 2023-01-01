@@ -1,0 +1,231 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color:rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin: 0;
+    font-family:'Arial narrow', sans-serif ;
+}
+#container{
+    width:400px;
+    height:620px;
+    /* max-width:100%; */
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+    box-shadow: 0 2px 5px rgb(17, 17, 17);
+}
+.topBar{
+    background-color: rgba(255, 0, 0, 0.981);
+    height:120px;
+    /* overflow: hidden; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.logo{
+    font-weight:bold;
+    position: relative;
+    padding:30px;
+    float: left;
+}
+.notificationIcon{
+    /* background-color: black; */
+    float: right;
+    padding: 30px;
+}
+.firstNav{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 7px rgb(17, 17, 17);
+    position: relative;
+    height:150px;
+    width:90%;
+    top:-50px;
+    margin: auto;
+    border-radius:10px;
+    padding:5px 0;
+}
+.firstNav .details{
+    display:flex;
+    gap:100px;
+    padding: 0 15px 5px 15px;
+}
+.details .name{
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+}
+.details .manageAccount{
+    margin-top:10px;
+    font-size:14px;
+}
+.balanceManager{
+    /* background-color: yellow; */
+    width:100%;
+    height:60px;
+    padding:5px 0 0 0;
+    display: flex;
+    gap:5px;
+    border-top: 1px solid grey;
+    border-bottom:1px solid grey;
+    
+}
+.airtimeBal, .voiceBal, .dataBal{
+    /* background-color: red; */
+    height:60px;
+    width:33.3%;
+    padding-left:15px;
+}
+.figure{
+    font-weight: bold;
+}
+.denomination{
+    color: rgba(255, 0, 0, 0.656);
+    font-weight: bold;
+
+}
+.txt{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.907);
+    font-weight: bold;
+}
+.rechargeButtons{
+ margin:10px 20px;
+ /* align-items: center;
+ justify-content: center; */
+}
+.rechargeButtons button{
+    padding:2px 30px;
+    background-color: rgba(255, 0, 0, 0.275);
+    border: none;
+    /* margin:10px auto; */
+    border-radius: 4px;
+    color: rgb(236, 0, 0);
+}
+/* ======styling for second nav =======*/
+.secondNav{
+    width:100%;
+    /* background-color: aqua; */
+    height:150px;
+    position: relative;
+    top: -20px;
+}
+.secondNav .quickActions{
+    display: flex;gap:200px;
+    padding:0 30px;
+}
+.quickActions .actionTxt{
+    font-weight: 700;
+}
+.buttonsGrp{
+    display: flex;
+    flex-wrap: wrap;gap:5px;
+    padding:10px;
+    /* margin-left:0px; */
+}
+.buttonsGrp .butt{
+    /* background-color: teal; */
+    width:60px;height:30px;
+    font-size:13.5px;
+    padding:15px;
+    /* justify-content:center; */
+    /* align-items: center; */
+    /* margin: 0 auto; */
+}
+.buttonsGrp .butt .circle{
+    width:50px;height:50px;
+    border-radius: 50px;position: relative;
+    top:-10px;left:5%;
+    background-color: rgba(215, 0, 0, 0.438);
+    background-position: center;
+    background-size:80%;
+    background-repeat: no-repeat;
+}
+.cir1{
+    background-image: url('../img/icons/icons8_wi-fi_router_60px.png');
+}
+.cir2{
+    background-image: url('../img/icons/icons8_cell_phone_60px.png');
+}
+.cir3{
+    background-image: url("../img/icons/icons8_bill_128px.png");
+}
+.cir4{
+    background-image: url('../img/icons/icons8_layers_100px.png');
+}
+.cir5{
+    background-image: url("../img/icons/icons8_music_48px.png");
+}
+.cir6{
+    background-image: url("../img/icons/icons8_layers_100px.png");
+}
+.cir7{
+    background-image: url("../img/icons/icons8_news_60px.png");
+}
+.cir8{
+    background-image: url('../img/icons/icons8_sell_60px.png');
+}
+
+
+.buttonsGrp .butt .pop-up{
+    width:50px;padding:2px 0px;
+    position: relative;z-index:1;
+    border-radius:5px;
+    top:-65px;left:50%;
+    background-color: rgb(255, 0, 25);
+    color: white;text-align: center;
+}
+.buttonsGrp .butt .text{
+    z-index: 1;
+    text-align: center;
+    position: relative;top:45px;
+    line-height:12px;
+}
+.slider{
+    height:80px;
+    width:100%;
+    /* background-color: red; */
+    /* display: flex; */
+    /* overflow-x:visible; */
+}
+.slide{
+    background-color:rgb(225, 7, 0);
+    width:100%;
+    height:80px;
+    
+}
+.lastDiv .quickActions{
+    display: flex;gap:200px;
+    padding:0 30px;
+    padding-top:5px;
+}
+.lastDiv .offer{
+    display: flex;
+    padding: 0 30px;
+    gap:170px;
+}
+.offer1{
+    display: flex;gap:5px;
+}
+.lastDiv .img{
+    width: 25px;height:25px;
+    background-color: aquamarine;
+    margin-top:5px;
+    border-radius: 100px;
+}
+.offerAmount{
+    margin-top:20px;
+    font-size: 14px;
+}
+.navIcons{
+    display: flex;
+    gap:10px;
+}
+.icons{
+    padding: 20px 0px 0px  0px;
+    width: 33.3%;
+    text-align: center;
+    /* background-color: teal; */
+}

@@ -1,0 +1,15 @@
+
+              <div class='box'>
+                  <label for="cpasswordBox">Confirm_Password*</label>
+                  <input type="password" name="cpasswordBox" id="cpasswordBox">
+              </div>
+
+              
+            <div class='box'>
+                <label for="phoneBox2">Phone_number*</label>
+                <input type="tel" name="phoneBox2" id="phone">
+                  <div class="align_me">
+                  <span id="valid-msg" class="hide">✓ Valid</span><span id="error-msg" class="hide"></span>
+                  </div>
+                <?php if (isset($ERROR['me2'])) {?> <?php echo "<p class='error'>".$ERROR['me2']."</p>"; ?> <?php }?>
+            </div>
